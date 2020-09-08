@@ -82,8 +82,8 @@ contract SnapshotTemplate is BaseTemplate, TokenCache {
         Agent agent = _installAgentApp(_dao);
         DisputableDelay delay = _installDisputableDelayApp(_dao, _executionDelay);
 
-        //_setupPermissions(acl, agent, _agreement, delay, _tokenManager);
-        //_activateDisputableDelay(acl, _agreement, delay, _collateralRequirements);
+        _setupPermissions(acl, agent, _agreement, delay, _tokenManager);
+        _activateDisputableDelay(acl, _agreement, delay, _collateralRequirements);
 
         return (delay);
     }
