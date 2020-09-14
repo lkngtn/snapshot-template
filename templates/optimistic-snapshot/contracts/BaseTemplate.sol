@@ -39,7 +39,7 @@ contract BaseTemplate is IsContract {
     bytes32 constant internal VAULT_APP_ID = 0x7e852e0fcfce6551c13800f1e7476f982525c2b5277ba14b24339c68416336d1;
 
     // App ID for agreement.precedence-campaign.aragonpm.eth:
-    bytes32 constant private AGREEMENT_APP_ID = 0x15a969a0e134d745b604fb43f699bb5c146424792084c198d53050c4d08126d1;
+    bytes32 constant private AGREEMENT_APP_ID = 0x41dd0b999b443a19321f2f34fe8078d1af95a1487b49af4c2ca57fb9e3e5331e ;
     // App ID for disputable-voting.precedence-campaign.aragonpm.eth:
     bytes32 constant private DISPUTABLE_VOTING_APP_ID = 0x39aa9e500efe56efda203714d12c78959ecbf71223162614ab5b56eaba014145;
 
